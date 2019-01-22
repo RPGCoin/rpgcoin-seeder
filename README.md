@@ -1,0 +1,1 @@
+# rpgcoin-seeder
