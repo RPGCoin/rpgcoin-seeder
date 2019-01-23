@@ -397,8 +397,8 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"dns1.rpgcoin.gg", "dns2.rpgcoin.gg", "dns3.rpgcoin.gg", "159.203.63.167", "157.230.57.66", "68.183.8.148", ""};
-static const string testnet_seeds[] = {"tn1.rpgcoin.gg", "tn2.rpgcoin.gg", "t3.rpgcoin.gg", ""};
+static const string mainnet_seeds[] = {"dns1.rpgcoin.gg", ""};
+static const string testnet_seeds[] = {"dns2.rpgcoin.gg", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
